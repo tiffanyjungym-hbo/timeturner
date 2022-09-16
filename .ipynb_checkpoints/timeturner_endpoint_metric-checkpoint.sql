@@ -1,5 +1,5 @@
 -- current set of predictions
-create or replace table max_prod.content_datascience.timeturner_endpoint as (
+create or replace table max_dev.content_datascience.timeturner_endpoint as (
     with base_meta_data as ( --https://github.com/HBOCodeLabs/hbomax-ci-analytics-airflow/blob/release/prod/dags/ci_analytics/resources/sql/psi/create_movie_and_season_offering_window_table.sql
             select
             distinct title_id
