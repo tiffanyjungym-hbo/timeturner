@@ -128,7 +128,7 @@ class TimeTurnerFlow(FlowSpec):
 #     args = parser.parse_args()
     
     cursor = connect_to_snowflake(
-                snowflake_account_name=SNOWFLAKE_ACCOUNT_NAME
+                snowflake_account_name=SNOWFLAKE_ACCOUNT_NAME,
                 database="MAX_DEV",
                 schema="CONTENT_DATASCIENCE",
                 warehouse="MAX_DATASCIENCE_DEV",
