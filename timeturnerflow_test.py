@@ -25,8 +25,6 @@ class TimeTurnerFlow(FlowSpec):
         import pandas as pd
         import boto3
         from io import StringIO
-        from lib.alloc_engine import AllocEngine
-        print(f'allocate_users() for {self.exp_config}')
 
         BUCKET_NAME = 'dev-wm-max-ml-metaflow-us-east-1'
         bucket_key = f'metaflow/SimulationTestEngineNoForeach/allcoation_output/test.csv'
