@@ -26,8 +26,8 @@ class TimeTurnerFlow(FlowSpec):
         import boto3
         from io import StringIO
 
-        BUCKET_NAME = 'dev-wm-max-ml-metaflow-us-east-1'
-        bucket_key = f'metaflow/SimulationTestEngineNoForeach/allcoation_output/test.csv'
+        BUCKET_NAME = 'hbo-ingest-datascience-content-dev'
+        bucket_key = f'psi_first_views/test.csv'
         csv_buffer=StringIO()
         
         
