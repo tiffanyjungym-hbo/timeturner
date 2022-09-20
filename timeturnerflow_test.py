@@ -19,7 +19,7 @@ class TimeTurnerFlow(FlowSpec):
 
     """
 
-    @conda(libraries={"pandas": "1.4.2"})
+#     @conda(libraries={"pandas": "1.4.2"})
     @retry
     @step
     def start(self):
