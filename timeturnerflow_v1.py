@@ -255,7 +255,7 @@ class TimeTurnerFlow(FlowSpec):
         order by effective_start_date asc
     )'''
         
-        run_query(querystr_base_assets, ctx)
+        run_query(query, ctx)
         self.next(self.end)
 
     @step
