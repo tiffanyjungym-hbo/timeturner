@@ -91,7 +91,7 @@ class TimeTurnerFlow(FlowSpec):
         """
 
         query = '''
-        create or replace table max_dev.workspace.timeturner_endpoint as (
+        create or replace table max_prod.content_datascience.timeturner_endpoint as (
         with base_meta_data as (
             select
             distinct title_id
